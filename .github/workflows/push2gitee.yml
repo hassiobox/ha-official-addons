@@ -13,5 +13,5 @@ jobs:
 
     - name: Sync with Gitee
       run: |
-        git remote add gitee https://laohuang112:e2f2ab487540e79348d79db0d42ed0a5@gitee.com/hassiozh/addons.git
+        git remote add gitee https://hassiozh:e2f2ab487540e79348d79db0d42ed0a5@gitee.com/hassiozh/addons.git
         git push --force gitee master
