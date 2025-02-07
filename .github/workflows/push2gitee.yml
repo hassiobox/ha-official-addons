@@ -2,7 +2,7 @@ name: Sync with Gitee
 
 on:
   schedule:
-    - cron: '*/5 * * * *' # 每天午夜（UTC时间）运行
+    - cron: '*/1 * * * *' # 每天午夜（UTC时间）运行
 
 jobs:
   sync:
