@@ -1,8 +1,10 @@
-name: Sync with Gitee
-
+---
+name: 'Sync with Gitee'
 on:
   schedule:
     - cron: '*/1 * * * *' # 每天午夜（UTC时间）运行
+    
+  workflow_dispatch:  # click the button on Github repo!
 
 jobs:
   sync:
