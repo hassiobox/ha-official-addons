@@ -8,6 +8,7 @@ ignore: |
   /git_pull/config.yaml
   /mariadb/config.yaml
   /matter_server/config.yaml
+  /mosquitto/config.yaml
   /ssh/config.yaml
   /vlc/config.yaml
   /zwave_js/config.yaml
